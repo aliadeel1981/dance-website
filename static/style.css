@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Ubuntu:ital,wght@1,300&display=swap');
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    
+    
+}
+#logo{
+    display: flex;
+    color: white;
+    align-items: center;
+    margin: 0 14px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(1);
+    font-size: 28px;
+    margin-right: 40px;
+}
+#navbar{
+    background-color: rgb(206, 206, 199);
+    padding: 10px 14px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+#navbar li a{
+    color: white;
+    text-decoration: none;
+    margin: 13px 30px;
+    font-weight: bold;
+}
+#navbar li a:hover{
+    color: black
+    
+}
+#navbar li{
+    list-style: none;
+}
+#introsecton{
+    color: rgb(15, 0, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: center/contain no-repeat url("../static/bg.jpg");
+    height: 400px;
+    background-color: red;
+
+}
+#introsecton div.small{
+    font-size: 1rem;
+}
+#sponsorsection{
+    margin: auto;
+    height: 300px;
+    background-color: rgb(243, 243, 193);
+
+}
+#MissionSection{
+    margin: auto;
+    height: 326px;
+    width: 67%;
+
+}
+#MissionSection h2{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+.card{
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 22%;
+    margin: 23px 16px;
+    height: 181px;
+}
+.card h3{
+    text-align: center;
+    margin: 12px;
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 125px;
+    padding: 0 14px;
+}
+.card-img img{
+    height: inherit;
+}
+.card-content{
+    padding: 0 10px;
+}
+.card-content p{
+    font-size: 16px;
+}
+#sponsorsection h3{
+    font-size: 36px;
+    text-align: center;
+    padding-top: 23px;
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+#sponsor{
+    height: 128px;
+    max-width: 1000px;
+    margin: 27px auto;  
+}
+.spimage{
+    height: 80%;
+    margin: 20px;
+}
+
+#footer{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: brown;
+    font-size: 20px;
+
+}

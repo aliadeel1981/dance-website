@@ -1,0 +1,54 @@
+doctype html
+html
+  head
+    style
+      include ../static/style.css
+  body
+    nav#navbar
+        ul 
+            div#logo
+                img(src="/static/img/logo.png")
+                | HDA
+            li #[a(href="/") Home ]
+            li #[a(href="/") About ]
+            li #[a(href="/") Services ]
+            li #[a(href="/") Class Info]
+            li #[a(href="/") Contact us]
+    section#introsecton
+        div Welcome to Harry's Dance academy
+        div.small Live learn dance 
+    section#MissionSection
+        h2 Our Mission
+        div.card 
+          h3 Dance Perfection
+          div.card-box 
+            div.card-img 
+              img(src="/static/img/1.jpg")
+            div.card-content 
+              p This is the best dance academy of the world
+        div.card 
+          h3 Dance the way you like
+          div.card-box 
+            div.card-img 
+              img(src="/static/img/2.png")
+            div.card-content 
+              p This is the best dance academy of the world
+        div.card 
+          h3 Expert teaching
+          div.card-box 
+            div.card-img 
+              img(src="/static/img/3.png")
+            div.card-content 
+              p This is the best dance academy of the world
+    section#sponsorsection
+        h3 Our Sponsors
+          div#sponsor  
+            img(src='/static/img/apple.jpg', alt="sponsor image", class="spimage")
+            img(src='/static/img/dell.png', alt="sponsor image", class="spimage")
+            img(src='/static/img/microsoft.png', alt="sponsor image", class="spimage")
+            img(src='/static/img/hp.png', alt="sponsor image", class="spimage")
+    footer#footer
+        | Copyright 2022 Harrydanceacademy.com
+       
+    script
+      include ../static/index.js
