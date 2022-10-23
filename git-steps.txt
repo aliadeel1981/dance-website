@@ -1,0 +1,11 @@
+1.touch .gitignore # files which you don't want to push on github
+2.git config --global user.name ali
+3.git config --global user.email <youremail@gmail.com>
+4.git init # Initialize init directory, it will create an hidden .git folder
+5. git add . # add your work in staging area
+6. git commit -m "my initial comit"
+7. git status # verify is there anything in staging area 
+8. ssh-keygen -t rsa -b 4096 -C "aleemlk3840@gmail.com"  # key is used to integrate your git repository with local system
+9. cat <path to id_rsa.pub> copy this key to your github account
+10. git remote add origin <ssh url.git>
+11. git push origin master # all your files will be pushed to git hub at this stage.
